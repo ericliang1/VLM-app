@@ -53,7 +53,9 @@ To ask questions in webcam video:
 streamlit run app.py
 ```
 
-3. Ask questions in textbox under webcam video
+3. Go to http://localhost:8501/ on web browser
+
+4. Ask questions in textbox under webcam video
 
 ---
 ### Run the Project in Docker
@@ -78,6 +80,8 @@ python camera_app.py
 docker run -p 8501:8501 vlm_app
 ```
 
-4. Ask questions in textbox under webcam video
+4. Go to http://localhost:8501/ on web browser
+
+5. Ask questions in textbox under webcam video
 
 ---

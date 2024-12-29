@@ -19,6 +19,7 @@ Before using the project, ensure you have the following:
 - Torch
 - OpenCV
 - Pillow
+- Flask
 
 Install required libraries with:
 
@@ -40,16 +41,43 @@ Install required libraries with:
 
 ## Usage
 
-### Run the Project
+### Run the Project Locally
 
 To ask questions in webcam video:
 
-1. Run app.py in terminal using:
+1. In app.py change cv2.VideoCapture("http://host.docker.internal:5000/video") to cv2.VideoCapture(0)
+
+2. Run app.py in terminal using:
    
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 3. Ask questions in textbox under webcam video
+
+---
+### Run the Project in Docker
+
+To ask questions in webcam video:
+
+1. Build a docker image in terminal using:
+
+```bash
+docker build -t vlm_app .
+```
+
+2. Run camera_app.py in terminal using:
+   
+```bash
+python camera_app.py
+```
+
+3. Run docker image in terminal using:
+
+```bash
+docker run -p 8501:8501 vlm_app
+```
+
+4. Ask questions in textbox under webcam video
 
 ---

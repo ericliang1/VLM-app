@@ -10,7 +10,7 @@ def run_app():
 
     #configure settings
     if "cap" not in st.session_state:
-        st.session_state.cap = cv2.VideoCapture(0)
+        st.session_state.cap = cv2.VideoCapture("http://host.docker.internal:5000/video")
 
     st.title("VLM Demo")
     stframe = st.empty()

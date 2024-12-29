@@ -85,3 +85,9 @@ docker run -p 8501:8501 vlm_app
 5. Ask questions in textbox under webcam video
 
 ---
+
+## Demonstration
+
+![](https://github.com/ericliang1/VLM-app/demo.gif)
+
+---

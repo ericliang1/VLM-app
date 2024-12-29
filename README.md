@@ -88,6 +88,6 @@ docker run -p 8501:8501 vlm_app
 
 ## Demonstration
 
-![](https://github.com/ericliang1/VLM-app/demo.gif)
+![](https://github.com/ericliang1/VLM-app/blob/main/demo.gif)
 
 ---

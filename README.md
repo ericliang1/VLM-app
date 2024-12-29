@@ -45,7 +45,7 @@ Install required libraries with:
 
 To ask questions in webcam video:
 
-1. In app.py change cv2.VideoCapture("http://host.docker.internal:5000/video") to cv2.VideoCapture("http://host.docker.internal:5000/video")
+1. In app.py change cv2.VideoCapture("http://host.docker.internal:5000/video") to cv2.VideoCapture(0)
 
 2. Run app.py in terminal using:
    
